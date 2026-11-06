@@ -201,17 +201,7 @@ The first item appears first, followed by the second and third.
 | Compilation error | Check braces and environments |
 | Text overflowing | Reduce content or font size |
 
-## 10. Mini Challenge
 
-Create a five-slide presentation on a topic of your choice.
-
-Include:
-
-1. A title slide
-2. An introduction
-3. A bullet-point slide
-4. An equation or image
-5. A conclusion slide
 
 ## Quick Revision
 

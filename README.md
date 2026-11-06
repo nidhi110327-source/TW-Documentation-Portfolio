@@ -15,7 +15,6 @@ Technical writing is more than writing documents. It is about presenting informa
 
 This portfolio brings together the concepts and tools explored during the Technical Writing course, along with examples, practical demonstrations, and useful references.
 
-
 ## 🧭 Your Learning Journey
 
 Six tools. Six different skills. One documentation journey.
@@ -37,7 +36,6 @@ flowchart TD
     style F fill:#F5EBD8,color:#17233B,stroke:#B58B49
     style G fill:#F5EBD8,color:#17233B,stroke:#B58B49
 ```
-
 
 ## Explore the Portfolio
 

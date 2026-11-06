@@ -289,23 +289,6 @@ GitHub Releases can use tags to publish release notes and downloadable files.
 - Keep commit messages meaningful.
 - Use pull requests to review important changes.
 
-## 14. Mini Challenge
-
-Create a GitHub repository for a simple project.
-
-Complete the following:
-
-1. Create a local Git repository.
-2. Add a README file.
-3. Commit your files.
-4. Create an empty GitHub repository.
-5. Connect your local repository to GitHub.
-6. Push the project.
-7. Create a feature branch.
-8. Make a small change and push it.
-9. Open a Pull Request.
-10. Review and merge the changes.
-
 ## Quick Revision
 
 - GitHub hosts Git repositories online.

@@ -216,16 +216,6 @@ Run Doxygen after configuring the input file.
 | Missing source files | Verify `INPUT` and `FILE_PATTERNS` |
 | Command not found | Install Doxygen or check PATH |
 
-## 09. Mini Challenge
-
-Create a C++ program containing:
-
-- One class
-- Two data members
-- A constructor
-- Two member functions
-
-Document the class and each function using Doxygen comments. Generate its HTML documentation.
 
 ## Quick Revision
 

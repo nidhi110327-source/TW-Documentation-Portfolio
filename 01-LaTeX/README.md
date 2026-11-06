@@ -205,17 +205,6 @@ Example:
 | Missing brace | Unmatched `{` or `}` |
 | Image not found | Incorrect image path |
 
-## 10. Mini Challenge
-
-Create a one-page student profile containing:
-
-- A title and author name
-- An introduction section
-- A bulleted list of hobbies
-- A table of three subjects and marks
-- One mathematical equation
-
-Compile it into a PDF.
 
 ## Quick Revision
 

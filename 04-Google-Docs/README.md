@@ -154,20 +154,6 @@ PDF is useful when you want to preserve the layout for sharing or submission.
 | Cannot share | Check account and sharing restrictions |
 | Lost an earlier version | Check version history |
 
-## 10. Mini Challenge
-
-Create a two-page report on a topic of your choice.
-
-Include:
-
-- A title and headings
-- A formatted paragraph
-- A numbered list
-- A table
-- A hyperlink
-- A comment from a collaborator
-
-Download the final report as a PDF.
 
 ## Quick Revision
 
