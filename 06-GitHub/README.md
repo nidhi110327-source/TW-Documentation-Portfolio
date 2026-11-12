@@ -41,20 +41,17 @@ calculator/
 The README introduces the project, while `.gitignore` specifies files that Git should ignore.
 
 
-## 🚀 From Local Code to Collaboration
 
-```mermaid
-flowchart TD
-    A["Local Repository"] --> B["Push to GitHub"]
-    B --> C["Remote Repository"]
-    C --> D["Create Pull Request"]
-    D --> E["Code Review"]
-    E --> F["Merge Changes"]
+##  From Local Code to Collaboration
 
-    style A fill:#EAE6F7,stroke:#7567B5,color:#17233B
-    style C fill:#F5EBD8,stroke:#B58B49,color:#17233B
-    style F fill:#17233B,stroke:#17233B,color:#FFFFFF
-```
+GitHub connects your local Git repository with an online platform where you can share projects and collaborate with others.
+
+1. **Local Repository:** Make changes to your project and save them as commits using Git.
+2. **Push to GitHub:** Use `git push` to upload your local commits to GitHub.
+3. **Remote Repository:** Your project is now hosted online, where others can view, access, and contribute to it.
+4. **Create a Pull Request:** Propose your changes so that other contributors can review them before they become part of the main project.
+5. **Code Review:** Team members examine the proposed changes, suggest improvements, and discuss possible corrections.
+6. **Merge Changes:** Once approved, merge the pull request to incorporate the changes into the target branch.
 
 ## 03. Creating a GitHub Repository
 

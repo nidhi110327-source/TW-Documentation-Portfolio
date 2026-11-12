@@ -32,19 +32,15 @@ Write LaTeX code (.tex)
    Formatted PDF
 ```
 
-## 🗺️ How LaTeX Works
+## 🧭 How LaTeX Works
 
-```mermaid
-flowchart TD
-    A["Write content in .tex file"] --> B["Add commands and formatting"]
-    B --> C["Compile using LaTeX"]
-    C --> D["Generate PDF"]
-    D --> E["View and share document"]
+LaTeX follows a simple process to turn your written content into a professionally formatted document.
 
-    style A fill:#EAE6F7,stroke:#7567B5,color:#17233B
-    style D fill:#F5EBD8,stroke:#B58B49,color:#17233B
-    style E fill:#17233B,stroke:#17233B,color:#FFFFFF
-```
+1. **Write your content:** Create a `.tex` file and add your text.
+2. **Add commands and formatting:** Use LaTeX commands to structure headings, format text, insert images, and write equations.
+3. **Compile the file:** Process your `.tex` file using a LaTeX compiler such as `pdflatex`.
+4. **Generate the PDF:** The compiler converts your source code into a formatted PDF document.
+5. **View and share:** Open the final PDF, review the output, and share your document.
 
 ## 03. Anatomy of a LaTeX Document
 

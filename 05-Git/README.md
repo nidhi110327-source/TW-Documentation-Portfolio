@@ -146,20 +146,17 @@ Git mainly works with three areas:
 - **Remote repository:** A shared repository hosted elsewhere, such as GitHub.
 
 
-## 🌱 The Git Workflow
 
-```mermaid
-flowchart TD
-    A["Working Directory"] --> B["git add"]
-    B --> C["Staging Area"]
-    C --> D["git commit"]
-    D --> E["Local Repository"]
-    E --> F["Project History"]
+##  The Git Workflow
 
-    style A fill:#EAE6F7,stroke:#7567B5,color:#17233B
-    style C fill:#F5EBD8,stroke:#B58B49,color:#17233B
-    style E fill:#17233B,stroke:#17233B,color:#FFFFFF
-```
+Git helps you track changes in your project and maintain a history of your work. Its basic workflow involves the following steps:
+
+1. **Working Directory:** Create, edit, or delete files in your project. These changes initially exist in your working directory.
+2. **Stage Changes:** Use `git add` to select the changes you want to include in your next commit.
+3. **Staging Area:** Git prepares the selected changes for committing. You can review them before saving.
+4. **Commit Changes:** Use `git commit` to save the staged changes as a snapshot in your local repository.
+5. **Local Repository:** Your commits are stored locally, allowing you to track and manage your project's versions.
+6. **Project History:** Use commands such as `git log` to explore previous commits and understand how your project has evolved.
 
 ## 07. Essential Git Commands
 

@@ -36,19 +36,17 @@ HTML / LaTeX Documentation
 Doxygen reads documentation comments and connects them with the relevant code elements.
 
 
+
 ## ⚙️ How Doxygen Works
 
-```mermaid
-flowchart TD
-    A["Write source code"] --> B["Add documentation comments"]
-    B --> C["Configure Doxyfile"]
-    C --> D["Run Doxygen"]
-    D --> E["Generate documentation"]
-    E --> F["Browse HTML documentation"]
+Doxygen transforms source code comments into organised documentation through the following steps:
 
-    style A fill:#EAE6F7,stroke:#7567B5,color:#17233B
-    style F fill:#F5EBD8,stroke:#B58B49,color:#17233B
-```
+1. **Write source code:** Create your program using a supported programming language such as C or C++.
+2. **Add documentation comments:** Describe functions, classes, parameters, and return values using special Doxygen comment tags.
+3. **Configure the Doxyfile:** Set options such as input files, output directory, and documentation formats.
+4. **Run Doxygen:** Execute the `doxygen Doxyfile` command to process your source code and comments.
+5. **Generate documentation:** Doxygen automatically creates documentation based on the comments and configuration.
+6. **Browse HTML documentation:** Open `html/index.html` in your browser to explore the generated documentation.
 
 ## 03. Writing Documentation Comments
 

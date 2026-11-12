@@ -33,19 +33,17 @@ It allows users to create, edit, format and collaborate on documents online.
 | Templates | Provides ready-made document layouts |
 
 
-## 🤝 The Google Docs Workflow
 
-```mermaid
-flowchart TD
-    A["Create a document"] --> B["Write and format"]
-    B --> C["Share with collaborators"]
-    C --> D["Edit and comment together"]
-    D --> E["Track version history"]
-    E --> F["Download or publish"]
+## The Google Docs Workflow
 
-    style A fill:#EAE6F7,stroke:#7567B5,color:#17233B
-    style F fill:#F5EBD8,stroke:#B58B49,color:#17233B
-```
+Google Docs makes it easy to create documents, work with others, and manage changes. The process usually involves these steps:
+
+1. **Create a document:** Start a new document using Google Docs.
+2. **Write and format:** Add your content and organise it using headings, fonts, lists, tables, and images.
+3. **Share with collaborators:** Invite others and assign suitable permissions such as Viewer, Commenter, or Editor.
+4. **Edit and comment together:** Collaborate in real time, suggest changes, and leave comments.
+5. **Track version history:** View previous versions and restore an earlier version whenever needed.
+6. **Download or publish:** Export your document in formats such as PDF or DOCX, or share it online.
 
 
 ## 03. Creating Your First Document

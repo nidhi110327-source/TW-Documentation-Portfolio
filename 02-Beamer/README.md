@@ -23,17 +23,14 @@ Instead of designing every slide manually, you write structured LaTeX code and c
 
 ## 🎬 How a Beamer Presentation Comes Together
 
-```mermaid
-flowchart TD
-    A["Plan presentation"] --> B["Create a Beamer document"]
-    B --> C["Add frames and slides"]
-    C --> D["Apply theme and formatting"]
-    D --> E["Compile"]
-    E --> F["Presentation PDF"]
+Creating a presentation with Beamer involves the following steps:
 
-    style A fill:#EAE6F7,stroke:#7567B5,color:#17233B
-    style F fill:#F5EBD8,stroke:#B58B49,color:#17233B
-```
+1. **Plan the presentation:** Decide the topic, structure, and key points you want to present.
+2. **Create a Beamer document:** Start a LaTeX file using the `beamer` document class.
+3. **Add frames and slides:** Organise your content into frames, with each frame representing a slide.
+4. **Apply a theme and formatting:** Choose a suitable theme and format text, equations, images, and other elements.
+5. **Compile the document:** Use a LaTeX compiler such as `pdflatex` to generate the presentation.
+6. **Generate the presentation PDF:** Review the slides and make any necessary corrections before sharing.
 
 ## 02. How Does It Work?
 
