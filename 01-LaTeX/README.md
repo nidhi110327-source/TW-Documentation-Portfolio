@@ -191,7 +191,150 @@ Example:
 \usepackage[margin=1in]{geometry}
 ```
 
-## 09. Common Errors
+## 09. Working with Colours in LaTeX
+
+LaTeX allows you to add colours to text, headings, backgrounds, and other elements using the `xcolor` package.
+
+### Import the Package
+
+Add this command in the preamble:
+
+```latex
+\usepackage{xcolor}
+```
+
+### Basic Colour Commands
+
+| Command | Purpose |
+|---|---|
+| `\textcolor{red}{Text}` | Changes the colour of specific text. |
+| `\color{blue}` | Changes the colour of subsequent text. |
+| `\colorbox{yellow}{Text}` | Adds a coloured background behind text. |
+| `\pagecolor{gray}` | Changes the page background colour. |
+| `\fcolorbox{red}{yellow}{Text}` | Adds a coloured border and background. |
+
+### Using Custom Colours
+
+You can define your own colours using RGB values.
+
+```latex
+\definecolor{myblue}{RGB}{23,35,59}
+\definecolor{mylavender}{RGB}{117,103,181}
+\definecolor{mygold}{RGB}{181,139,73}
+```
+
+Use your custom colours like this:
+
+```latex
+\textcolor{myblue}{Technical Writing}
+
+\textcolor{mylavender}{Beautiful Documents}
+
+\colorbox{mygold}{Important Note}
+```
+
+### Complete Example
+
+```latex
+\documentclass{article}
+\usepackage{xcolor}
+
+\definecolor{myblue}{RGB}{23,35,59}
+\definecolor{mylavender}{RGB}{117,103,181}
+
+\begin{document}
+
+\textcolor{myblue}{\Huge Technical Writing}
+
+\textcolor{mylavender}{Learning LaTeX}
+
+\colorbox{yellow}{Important Information}
+
+\end{document}
+```
+
+**Tip:** Use colours consistently to highlight important information and make documents visually appealing.
+
+
+## 10. Adding Pictures and Graphics in LaTeX
+
+LaTeX allows you to insert images, diagrams, charts, and other graphical elements into your documents. The `graphicx` package is commonly used for adding external images.
+
+### Import the Package
+
+Add this command in the preamble:
+
+```latex
+\usepackage{graphicx}
+```
+
+### Basic Image Insertion
+
+Use the `\includegraphics` command:
+
+```latex
+\includegraphics{image.png}
+```
+
+Make sure the image is stored in the same folder as your `.tex` file, or provide its relative path.
+
+### Adjusting Image Size
+
+You can control the appearance of an image using different options:
+
+| Command | Purpose |
+|---|---|
+| `width=0.5\textwidth` | Sets image width to half the text width. |
+| `height=5cm` | Sets image height to 5 cm. |
+| `scale=0.5` | Reduces image size to half. |
+| `angle=45` | Rotates the image by 45 degrees. |
+| `keepaspectratio` | Maintains the original image proportions. |
+
+### Adding an Image with a Caption and Label
+
+Use the `figure` environment to insert an image with a caption and reference label.
+
+```latex
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{image.png}
+    \caption{Example of an inserted image}
+    \label{fig:example}
+\end{figure}
+```
+
+- `\centering` aligns the image in the centre.
+- `\caption{}` adds a caption below the image.
+- `\label{}` assigns a reference name to the figure.
+
+### Referencing an Image
+
+You can refer to the image anywhere in your document using:
+
+```latex
+As shown in Figure~\ref{fig:example}, the image illustrates the concept.
+```
+
+LaTeX automatically manages figure numbering.
+
+### Example with Two Images
+
+```latex
+\begin{figure}[h]
+    \centering
+
+    \includegraphics[width=0.4\textwidth]{image1.png}
+    \hspace{0.5cm}
+    \includegraphics[width=0.4\textwidth]{image2.png}
+
+    \caption{Comparison of two images}
+\end{figure}
+```
+
+**Tip:** Use clear, high-quality images and suitable dimensions so that graphics fit naturally into your document.
+
+
+## 11. Common Errors
 
 | Error | Likely cause |
 |---|---|
