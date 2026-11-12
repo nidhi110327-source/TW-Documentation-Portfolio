@@ -221,7 +221,14 @@ Example:
 Here is an example of a LaTeX document being written
 and compiled into a PDF.
 
-![LaTeX source code and compiled PDF](../assets/images/latex/latex-output.png)
+![LaTeX source code and compiled PDF](../assets/images/latex/latex-source.png)
+
+![Formatted LaTeX Document](../assets/images/latex/formatted-document.png)
+
+
+### Final PDF Output
+
+![LaTeX PDF Output](../assets/images/latex/latex-output.png)
 
 *From source code to a formatted document.*
 
